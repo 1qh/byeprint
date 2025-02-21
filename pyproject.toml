@@ -1,0 +1,6 @@
+[project]
+dependencies = ['executing', 'pygments', 'asttokens']
+description = 'Say goodbye to print()'
+name = 'byeprint'
+readme = 'README.md'
+version = '0.1.0'

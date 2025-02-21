@@ -1,0 +1,47 @@
+fix = true
+indent-width = 2
+line-length = 120
+preview = true
+required-version = '>=0.9.7'
+respect-gitignore = false
+target-version = 'py313'
+unsafe-fixes = true
+
+[format]
+docstring-code-format = true
+quote-style = 'single'
+preview = true
+
+[lint]
+select = ['ALL']
+ignore = [
+  'ANN401',
+  'COM812',
+  'CPY001',
+  'D100',
+  'D101',
+  'D102',
+  'D103',
+  'D104',
+  'D105',
+  'D106',
+  'D107',
+  'E111',
+  'E114',
+  'PLC2701',
+  'Q002',
+  'S404',
+  'S602',
+  'S603',
+  'S605',
+  'S607',
+  'T20',
+]
+preview = true
+
+[lint.flake8-quotes]
+docstring-quotes = 'single'
+inline-quotes = 'single'
+
+[lint.pydocstyle]
+convention = 'google'
