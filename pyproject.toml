@@ -1,0 +1,10 @@
+[project]
+dependencies = ['executing', 'pygments', 'asttokens']
+description = 'Say goodbye to print()'
+name = 'byeprint'
+readme = 'README.md'
+version = '0.1.1'
+
+[project.urls]
+homepage = 'https://github.com/1qh/byeprint'
+github = 'https://github.com/1qh/byeprint'
